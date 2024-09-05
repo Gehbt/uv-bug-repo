@@ -1,0 +1,24 @@
+{
+  "name": "uv-bug-repo",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development rspack serve",
+    "build": "cross-env NODE_ENV=production rspack build"
+  },
+  "dependencies": {
+    "vue": "^3.4.21"
+  },
+  "devDependencies": {
+    "@rspack/cli": "^1.0.3",
+    "@rspack/core": "^1.0.3",
+    "cross-env": "^7.0.3",
+    "css-loader": "^7.1.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3",
+    "unplugin-vue": "^5.1.3",
+    "vue-loader": "^17.3.1",
+    "vue-style-loader": "^4.1.3"
+  },
+  "packageManager": "pnpm@9.9.0+sha512.60c18acd138bff695d339be6ad13f7e936eea6745660d4cc4a776d5247c540d0edee1a563695c183a66eb917ef88f2b4feb1fc25f32a7adcadc7aaf3438e99c1"
+}
